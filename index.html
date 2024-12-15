@@ -7,6 +7,46 @@
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-    
+    <div class="container">
+        <h2>contact us</h2>
+        <form action="">
+        <div class="form_row">
+            <div class="form_group">
+                <label for="firstName">first name * :</label>
+                <input type="text" name="firstName" id="firstName">
+            </div>
+            <div class="form_group">
+                <label for="lastName">last name * :</label>
+                <input type="text" name="lastName" id="lastName">
+            </div>
+        </div>
+        <div class="form_group">
+            <label for="email">email address * :</label>
+            <input type="email" name="email" id="email">
+        </div>
+        <div class="form_group">
+            <label>query type * :</label>
+            <div class="radio_group">
+                <label class="radio_label">
+                    <input type="radio" name="queryType">
+                    general enquiry 
+                </label>
+                <label class="radio_label">
+                    <input type="radio" name="queryType">
+                    support enquiry 
+                </label>
+            </div>
+        </div>
+        <div class="form_group">
+            <label for="textArea">message * :</label>
+            <textarea name="textArea" id="textArea"></textarea>
+        </div>
+        <div class="checkbox-group">
+            <input type="checkbox" name="idea" id="idea">
+            <label for="idea">I consent to being contact by the team *</label>
+        </div>
+        <button>submit</button>
+        </form>
+    </div>
 </body>
 </html>
